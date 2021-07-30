@@ -1,0 +1,48 @@
+/* universal */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.brand-color {
+  color: #fa804c;
+}
+
+.price-tag {
+  color: #fa804c;
+  font-size: 2.25rem;
+}
+
+/* universal styles for larger screen */
+@media screen and (min-width: 689px) {
+  header {
+    min-height: 100vh;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+/* header */
+
+/* casual shoes */
+#casual .card-img {
+  padding: 1rem 0;
+  background: #f1f1f1;
+  height: 100%;
+  text-align: center;
+}
